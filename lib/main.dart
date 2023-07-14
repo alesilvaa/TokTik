@@ -21,8 +21,11 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'TokTik',
         debugShowCheckedModeBanner: false,
+        
         theme: AppTheme().getTheme(),
-        home: const DiscoverScreen()
+        home: 
+        const DiscoverScreen(),
+        
       ),
     );
   }
